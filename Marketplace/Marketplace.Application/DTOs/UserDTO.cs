@@ -1,6 +1,6 @@
-namespace Marketplace.Core.Entities;
+namespace Marketplace.Application.DTOs;
 
-public class User : EntityBase
+public class UserDTO
 {
     public string Name { get; set; }
     
@@ -8,6 +8,5 @@ public class User : EntityBase
     
     public string Avatar { get; set; }
     
-    public string? PasswordHash { get; set; }
-    
+    public string? Password { get; set; }
 }
